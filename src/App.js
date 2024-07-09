@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import Header from './components/Header';
+import MobileHeader from './components/MobileHeader';
 import './App.css';
 
-function App() {
+const App = () => {
+  const isMobile = window.innerWidth <= 768; // Example: Adjust this based on your mobile breakpoint
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isMobile ? <MobileHeader /> : <Header />}
+      {/* Render MobileHeader for mobile devices, Header for desktop */}
+      {/* Other content */}
     </div>
   );
-}
+};
 
 export default App;

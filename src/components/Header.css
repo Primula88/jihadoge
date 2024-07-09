@@ -1,0 +1,81 @@
+/* components/Header.css */
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInLeft {
+  animation: fadeInLeft 2s ease-in-out forwards;
+}
+
+.fadeInRight {
+  animation: fadeInRight 2s ease-in-out forwards;
+}
+
+.fadeInUp {
+  animation: fadeInUp 2s ease-in-out forwards;
+}
+
+.logo-image {
+  max-width: 500px; /* Adjust as needed */
+}
+
+.header-image {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px; /* Little rounded borders */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  margin-top: -20px; /* Margin between image and top */
+}
+
+.boom-image {
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  border-radius: 10px; /* Little rounded borders */
+  margin-top: -50px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.button-image {
+  width: 50px;
+  height: 50px;
+  margin-top: -30px;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.button-image:hover {
+  background-image: url('https://via.placeholder.com/50/0000FF'); /* Change this to the hover image */
+}
+
+.bg-arabic-beige {
+  background-color: #F0EAD6; /* Arabic beige background color */
+}
+
