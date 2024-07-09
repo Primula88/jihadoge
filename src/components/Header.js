@@ -5,6 +5,7 @@ import LogoImage from '../text.webp'; // Assuming you have your logo image here
 import BoomImage from '../islam.png'; // Assuming you have your boom image here
 import XImage from '../twitter.webp'; //
 import TGImage from '../tg.webp'; //
+import CAImage from '../copyca.webp'; //
 import DexImage from '../dexscreener.webp'; //
 
 const Header = () => {
@@ -47,7 +48,14 @@ return (
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${TGImage})` }}></button>
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${XImage})` }}></button>
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${DexImage})` }}></button>
-	</div>
+	<button
+  onClick={() => navigator.clipboard.writeText('twat')}
+  className="button-image bg-cover"
+  style={{ backgroundImage: `url(${CAImage})` }}
+>
+  {/* Button content goes here */}
+</button>
+</div>
     </header>
   );
 };
