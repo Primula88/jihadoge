@@ -44,7 +44,7 @@ return (
           className="header-image opacity-0"
         />
       </div>
-      <div className="fixed bottom-10 w-full flex justify-center space-x-4">
+      <div className="fixed bottom-5 w-full flex justify-center space-x-4">
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${TGImage})` }}></button>
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${XImage})` }}></button>
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${DexImage})` }}></button>
