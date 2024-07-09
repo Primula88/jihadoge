@@ -25,6 +25,13 @@ const MobileHeader = () => {
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${TGImage})` }}></button>
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${XImage})` }}></button>
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${DexImage})` }}></button>
+	<button
+	  onClick={() => navigator.clipboard.writeText('twat')}
+  	className="button-image bg-cover"
+  	style={{ backgroundImage: `url(${CAImage})` }}
+	>
+	  {/* Button content goes here */}
+	</button>
 
 	</div>
     </header>
