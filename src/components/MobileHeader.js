@@ -5,7 +5,8 @@ import LogoImage from '../text.webp'; // Replace with correct path to your logo 
 import XImage from '../twitter.webp'; //
 import TGImage from '../tg.webp'; //
 import DexImage from '../dexscreener.webp'; //
-
+import CAImage from '../copyca.webp';
+ 
 const MobileHeader = () => {
   return (
     <header className="relative flex flex-col items-center justify-center h-screen bg-arabic-beige text-white">

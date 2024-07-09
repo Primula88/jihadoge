@@ -1,5 +1,6 @@
 // src/App.js
 import React from 'react';
+import Gallery from './components/Gallery';
 import Header from './components/Header';
 import MobileHeader from './components/MobileHeader';
 import './App.css';
@@ -10,8 +11,7 @@ const App = () => {
   return (
     <div className="App">
       {isMobile ? <MobileHeader /> : <Header />}
-      {/* Render MobileHeader for mobile devices, Header for desktop */}
-      {/* Other content */}
+      <Gallery />
     </div>
   );
 };
