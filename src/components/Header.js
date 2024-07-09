@@ -45,8 +45,10 @@ return (
         />
       </div>
       <div className="fixed bottom-5 w-full flex justify-center space-x-4">
-        <button className="button-image bg-cover" style={{ backgroundImage: `url(${TGImage})` }}></button>
-        <button className="button-image bg-cover" style={{ backgroundImage: `url(${XImage})` }}></button>
+        <a href="https://t.me/jihadogesol" target="_blank" rel="noopener noreferrer">
+	<button className="button-image bg-cover" style={{ backgroundImage: `url(${TGImage})` }}></button><a>
+        <a href="https://x.com/jihadogesol" target="_blank" rel="noopener noreferrer">
+	<button className="button-image bg-cover" style={{ backgroundImage: `url(${XImage})` }}></button></a>
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${DexImage})` }}></button>
 	<button
   onClick={() => navigator.clipboard.writeText('twat')}
