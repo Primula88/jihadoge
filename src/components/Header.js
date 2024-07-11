@@ -51,7 +51,7 @@ return (
 	<button className="button-image bg-cover" style={{ backgroundImage: `url(${XImage})` }}></button></a>
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${DexImage})` }}></button>
 	<button
-  onClick={() => navigator.clipboard.writeText('twat')}
+  onClick={() => navigator.clipboard.writeText('DhKE1vuWiNNnzeGazLRHXgkrFffPGSRCcke4YDb5pump')}
   className="button-image bg-cover"
   style={{ backgroundImage: `url(${CAImage})` }}
 >
