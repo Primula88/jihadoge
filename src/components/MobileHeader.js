@@ -27,7 +27,8 @@ const MobileHeader = () => {
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${TGImage})` }}></button></a>
         <a href="https://x.com/jihadogesol" target="_blank" rel="noopener noreferrer">
         <button className="button-image bg-cover" style={{ backgroundImage: `url(${XImage})` }}></button></a>
-	<button className="button-image bg-cover" style={{ backgroundImage: `url(${DexImage})` }}></button>
+	<a href="https://dexscreener.com/solana/DhKE1vuWiNNnzeGazLRHXgkrFffPGSRCcke4YDb5pump" target="_blank" rel="noopener noreferrer">
+	<button className="button-image bg-cover" style={{ backgroundImage: `url(${DexImage})` }}></button></a>
 	<button
 	  onClick={() => navigator.clipboard.writeText('DhKE1vuWiNNnzeGazLRHXgkrFffPGSRCcke4YDb5pump')}
   	className="button-image bg-cover"
